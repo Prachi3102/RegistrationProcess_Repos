@@ -1,0 +1,70 @@
+/*@Test(priority = 1)
+	public void openBrowser() throws IOException, InterruptedException {
+		driver = Base.driverLaunch();
+	}
+		
+		
+	@Test(priority = 2)
+		public void Home_page() throws IOException, InterruptedException {
+	    Home_Page hp= new Home_Page(driver);
+		hp.Sign_In_Options();
+		Thread.sleep(2000);
+		hp.click_register();
+	}
+	*/
+	/*((JavascriptExecutor)driver).executeScript("window.open()");
+				// driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL +"t");
+			 ArrayList<String> tabs = new ArrayList<String> (driver.getWindowHandles());
+
+			  driver.switchTo().window(tabs.get(1)); //switches to new tab
+			  driver.get("https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2f");
+			 Thread.sleep(3000);
+			  driver.findElement(By.xpath("//*[@id='email']")).sendKeys("gwamqa.team@gmail.com");
+			  
+			  driver.findElement(By.xpath("//*[@id='password']")).sendKeys("P@ssw0rd_test");
+			
+			  driver.findElement(By.xpath("//*[@id='submit-button']")).click();
+			  
+			
+			  driver.get("https://mail.google.com");
+			 
+			  Thread.sleep(10000);
+			   driver.findElement(By.id("identifierId")).sendKeys("gwamqa.team@gmail.com");     
+
+	          WebDriverWait wait=new WebDriverWait(driver, 20);               
+
+	          driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/div[2]")).click();         
+
+	          driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);   
+	          
+	          
+	          //driver.findElement(By.xpath("//input[@class='whsOnd zHQkBf']")).sendKeys("P@ssw0rd_test");             
+
+	         // driver.findElement(By.xpath("//span[@class='RveJvd snssByac']")).click(); 
+
+
+
+
+			  driver.switchTo().window(tabs.get(0)); // switch back to main screen
+
+			
+			
+			//driver.get("https://advisor-uat.apps.cac.pcf.manulife.com/landing");
+*/
+
+
+
+.........................................................................................................................................................
+Sign InPage
+
+/*
+		 * Home_Page hp= new Home_Page(driver); hp.Sign_In_Options();
+		 * Thread.sleep(2000); hp.click_register();
+		 */
+		
+		
+		
+		//WebDriverWait wait = new WebDriverWait(driver, 10);
+
+		// WebElement element =
+		// wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[contains(text(),'Profile')])")));

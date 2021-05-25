@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="262610" started-at="2021-05-17T10:27:01Z" finished-at="2021-05-17T10:31:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="262610" started-at="2021-05-17T10:27:01Z" finished-at="2021-05-17T10:31:23Z">
+      <class name="com.execution.test.TC03_SigninMA">
+        <test-method status="PASS" signature="Registration_Page(java.util.Map)[pri:1, instance:com.execution.test.TC03_SigninMA@50b494a6]" name="Registration_Page" duration-ms="262519" started-at="2021-05-17T06:27:01Z" data-provider="csvReader" finished-at="2021-05-17T06:31:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{BOCity=Calgary, AdvisorLastName=tyredc, Email=gwamqa.team+dummy15@gmail.com, MACity=Calgary, ï»¿dumb=dumb8, PostalCode=T1Y 0L5, BOMobileNumber=3212321111, Companyname=ggsdyh, Month=March, MAProvince=Alberta, Re-Password=P@ssw0rdtest, BOPostalCode=1A12W3, MALegal_Firstname=asdasdf, BOProvince=Alberta, BOOfficeNumber=1415434545, MAAddress1=gftr, Password=P@ssw0rdtest, AdvisorEmailId=abcdf@gmail.com, AdvisorFirstName=abvv, Legal_Firstname=abcdefgiy, Lastname=dummy10, OfficeNumber=(321) 432-9121, BOAddress1=sdft, BOLegal_Firstname=weerf, Address1=dfrghi, City=Calgary, MAMobileNumber=2124356666, Province=Alberta, Firstname=test10, MobileNumber=(999) 999-9981, Year=2000, Username=TREWQQWE, BOCompanyname=gtgdn, Day=1, MAPostalCode=A1W 2W3, MAOfficeNumber=2123213333, MACompanyname=fgtfd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_Page -->
+      </class> <!-- com.execution.test.TC03_SigninMA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
